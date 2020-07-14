@@ -5,6 +5,10 @@
     padding:0;
     
 }
+
+body{
+    font-size: 16px;
+}
 .container{
     background-color: #0D0B17;
     display: grid;
@@ -55,9 +59,13 @@ span{
     margin-bottom:-1%;
     
 }
+.juegahora{
+    width: 30%;
+}
+
 .subtitle{
     background-image: url(../img/tablero.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -300,6 +308,15 @@ footer{
 .bannerfoot{
     width: 20%;
     padding-top: 2em;
+}
+
+@media (max-width: 1400px) {
+    body{
+        font-size: 11px;
+    }
+    .docu{
+        height: 20%;
+    }
 }
 
 @media (max-width: 600px) {
