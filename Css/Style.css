@@ -87,21 +87,24 @@ span{
 
 .textohistoria{
     color: white;
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3/4;
     font-family: 'Cabin', sans-serif;
-    background-image: url(../img/agujeronegro.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
     margin-bottom: 5%;
 
 }
 
+.agujeronegro{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 110%;
+    height: 100%;
+    margin-left: -10%;
+}
 
 .textohistoria p{
     font-size: 1.2em;
-    padding-right: 45%;
+    
 }
 
 
@@ -318,19 +321,20 @@ footer{
 }
 
 @media (max-width: 600px) {
-   
+    
+
     .container{
         background-color: #0D0B17;
         display: grid;
-        grid-template-columns: 10% 40% 40% 10%;
-        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-columns: 10% auto 10%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     
     }
 
     .banner{
 
-        width: 100%;
-        grid-column: 2/4;
+        width: 80%;
+        grid-column: 2/3;
         grid-row: 1/2;
     
     }
@@ -338,12 +342,144 @@ footer{
     .subtitle{
         text-align: center;
         grid-row: 2/3;
-        grid-column: 2/4;
-        font-family: 'Titillium Web', sans-serif;
-        color: white;
+        grid-column: 2/3;
+        
+       
     }
     h2 {
-        font-size: .3em;
+        font-size: 1.2em;
+    }
+    .textohistoria{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin-bottom: 5%;
+    
+    }
+    .agujeronegro{
+        grid-row: 4/5;
+        grid-column: 2/3;
+        height: auto;
+        width: 100%;
     }
     
+    .titulonaves{
+        grid-row: 5/6;
+        grid-column: 2/3; 
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(13,11,23,1) 9%, rgba(20,15,30,1) 28%, rgba(20,15,30,1) 74%, rgba(13,11,23,1) 93%, rgba(13,11,23,1) 100%);
+    }
+    
+    
+    .naves{
+        background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(13,11,23,1) 9%, rgba(20,15,30,1) 28%, rgba(20,15,30,1) 74%, rgba(13,11,23,1) 93%, rgba(13,11,23,1) 100%);    grid-row: 5/6;
+        grid-column: 2/3;
+        grid-row: 6/7; 
+        display: inline-flex;
+        justify-content: space-between;
+        padding-top: 5%;
+        flex-wrap: wrap;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 3%;
+    }
+   
+    .comojugar{
+        grid-row: 7/8;
+        grid-column: 2/3; 
+        text-align: center;
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+    .tablero{
+        grid-row: 8/9;
+        grid-column: 2/3; 
+        width: 90%;
+        padding-top: 10%;
+        padding-right: 9%;
+        padding-bottom: 46%;
+        margin-bottom: 15%;
+        background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
+        border-right: 4px solid #FFA1FF;
+    }
+    .movimiento{
+        width: 100%;
+        grid-row: 9/10;
+        grid-column: 2/3;
+    }
+    .comienzo{
+        grid-row: 10/11;
+        grid-column: 2/3; 
+        padding-left: 5%;
+        margin-bottom: 15%;
+        text-align: left;
+    }
+    
+    .bases{
+        grid-row: 11/12   ;
+        grid-column: 2/3;
+        border-right: 4px solid #FFA1FF;    
+    }
+    .screenshotstab{
+        grid-row: 12/13   ;
+        grid-column: 2/3;
+        width: 90%;
+    }
+
+    .cartaataque{
+        padding-top: 12%;
+        grid-row: 13/14;
+        grid-column: 2/3;
+        width: 90%;
+        padding-right: 9.5%;
+        padding-bottom: 22%;
+        background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
+        border-right: 4px solid #FFA1FF;
+        margin-bottom: 15%;
+    
+    }
+    .ataque{
+        grid-row:14/15   ;
+        grid-column: 2/3;
+        padding-right: 3em; 
+        padding-left: 5%;
+        margin-bottom: 15%;
+    }
+    .contillustr{
+        grid-row:15/16;
+        grid-column: 2/3;
+        display: inline-flex;
+        justify-content: space-between;  
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+    
+    .sabermas{
+        grid-row:16/17;
+        grid-column: 2/3;
+        border-top: 4px solid #FFA1FF;
+        display: inline;
+    }
+    .docu{
+        height: 20%;
+        padding-top: 1em;
+    }
+    .habilidades{
+        grid-row:17/18;
+        grid-column: 2/3;
+        padding-right:9%;
+        margin-bottom: 15%;
+    }
+    .cartahabilidad{
+        grid-row:18/19;
+        grid-column: 2/3;
+        width: 100%;
+        background: linear-gradient(to left, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
+        border-left: 4px solid #FFA1FF;;
+        padding-left: 10%;
+        padding-bottom: 61.5%;
+        padding-top: 12%;
+        margin-bottom: 15%;
+    }
 }
