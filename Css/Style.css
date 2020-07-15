@@ -382,7 +382,8 @@ footer{
         grid-column: 2/3;
         grid-row: 6/7; 
         flex-direction: column;
-        width: 20%;
+        height: 100%;
+        width: 25%;
         padding-left: 30%;
         padding-bottom: 3%;
         flex-grow: 1;
@@ -426,7 +427,8 @@ footer{
     .bases{
         grid-row: 11/12   ;
         grid-column: 2/3;
-        border-right: 4px solid #FFA1FF;    
+        border-right: 4px solid #FFA1FF; 
+        padding-left: 5%;   
     }
     .screenshotstab{
         grid-row: 12/13   ;
@@ -449,7 +451,7 @@ footer{
     .ataque{
         grid-row:14/15   ;
         grid-column: 2/3;
-        padding-right: 3em; 
+        padding-right: 5%; 
         padding-left: 5%;
         margin-bottom: 15%;
     }
@@ -484,7 +486,8 @@ footer{
     .habilidades{
         grid-row:17/18;
         grid-column: 2/3;
-        padding-right:9%;
+        padding-right:5%;
+        padding-left: 5%;
         margin-bottom: 15%;
     }
     .cartahabilidad{
