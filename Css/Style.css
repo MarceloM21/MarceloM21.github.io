@@ -263,11 +263,13 @@ span{
     display:flex;
     margin-left: 33%;
     border-top: 4px solid #FFA1FF;
+    margin-bottom: 10%;
     
 }
 .docu{
-    height: 30%;
+    width: 10%;
     padding-top: 1em;
+    padding-right: 5%;
 }
 .sabermas p{
     margin-top: 0.5em;
@@ -487,7 +489,7 @@ footer{
         grid-column: 2/3;
         width: 100%;
         background: linear-gradient(to left, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
-        border-left: 4px solid #FFA1FF;;
+        border-top: 4px solid #FFA1FF;;
         padding-left: 5%;
         padding-bottom: 10%;
         padding-top: 12%;
