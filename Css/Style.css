@@ -382,7 +382,7 @@ footer{
         grid-row: 6/7; 
         flex-direction: column;
         width: 30%;
-        padding-left: 33%;
+        padding-left: 30%;
         padding-bottom: 3%;
         flex-grow: 1;
     }
