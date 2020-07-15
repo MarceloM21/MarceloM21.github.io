@@ -381,9 +381,10 @@ footer{
         grid-column: 2/3;
         grid-row: 6/7; 
         flex-direction: column;
-        width: 35%;
+        width: 30%;
         padding-left: 33%;
         padding-bottom: 3%;
+        flex-grow: 1;
     }
    
     .stinggrey{
