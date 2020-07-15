@@ -402,9 +402,9 @@ footer{
     .tablero{
         grid-row: 8/9;
         grid-column: 2/3; 
-        width: 100%;
+        width: 95%;
         padding-top: 5%;
-        padding-right: 0%;
+        padding-right: 5%;
         padding-bottom: 15%;
         margin-bottom: 15%;
         background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
