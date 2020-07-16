@@ -75,7 +75,7 @@ span{
     grid-column: 2/4; 
     height: 100%;
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     
 }
 .subtitle h3{
@@ -351,6 +351,7 @@ footer{
         grid-column: 1/4; 
         background-size: contain;
         height: 100%;
+        
         background-repeat: no-repeat;
         background-position: center;
        padding-top: 20%;
