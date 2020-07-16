@@ -336,7 +336,7 @@ footer{
     }
 
     .banner{
-        width: 75%;
+        width: 85%;
         grid-column: 1/4;
         grid-row: 1/2;
     
@@ -345,16 +345,19 @@ footer{
     .subtitle{
         text-align: center;
         grid-row: 2/3;
-        grid-column: 2/3;
-        padding-left: 3%;
-        padding-right: 3%; 
+        grid-column: 1/4; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     h2 {
         font-size: 1.5em;
     }
-    h3{
-        font-size: 1em;
+    .subtitle h3{
+        font-size: 1.2em;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -369,6 +372,9 @@ footer{
         grid-column: 2/3;
         height: auto;
         width: 100%;
+    }
+    .juegahora{
+        width: 50%;
     }
     
     .titulonaves{
