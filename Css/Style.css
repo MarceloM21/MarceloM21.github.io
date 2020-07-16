@@ -8,9 +8,11 @@
 
 body{
     font-size: 16px;
+    background-color: #0D0B17;
+
 }
 .container{
-    background-color: #0D0B17;
+    
     display: grid;
     grid-template-columns: 15% 35% 35% 15%;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
@@ -323,8 +325,11 @@ footer{
 
 @media (max-width: 600px) {
    
-    .container{
+    body{
         background-color: #0D0B17;
+    }
+    .container{
+       
         display: grid;
         grid-template-columns: 10% auto 10%;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
@@ -332,7 +337,6 @@ footer{
     }
 
     .banner{
-
         width: 80%;
         grid-column: 2/3;
         grid-row: 1/2;
@@ -342,8 +346,9 @@ footer{
     .subtitle{
         text-align: center;
         grid-row: 2/3;
-        grid-column: 1/4;
-         
+        grid-column: 2/3;
+        padding-left: 3%;
+        padding-right: 3%; 
     }
 
     h2 {
@@ -484,7 +489,7 @@ footer{
         grid-row:17/18;
         grid-column: 2/3;
         padding-right:5%;
-        padding-left: 5%;
+        padding-left: 3%;
         margin-bottom: 15%;
     }
     .cartahabilidad{
