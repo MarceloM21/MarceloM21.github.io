@@ -349,11 +349,11 @@ footer{
         text-align: center;
         grid-row: 2/3;
         grid-column: 1/4; 
-        background-size: cover;
-        
+        background-size: contain;
+        height: 100%;
         background-repeat: no-repeat;
         background-position: center;
-       padding-top: 25%;
+       padding-top: 20%;
       
     }
 
@@ -365,9 +365,10 @@ footer{
         font-size: 1.2em;
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 25%;
     }
     .textohistoria{
-        margin-top:30%;
+        margin-top:15%;
         grid-column: 2/3;
         grid-row: 3/4;
         margin-bottom: 5%;
@@ -381,7 +382,9 @@ footer{
     }
     .juegahora{
         width: 50%;
-        padding-top: 40%;
+        
+        padding-top: 60%;
+        padding-bottom: 0;
     }
     
     .titulonaves{
