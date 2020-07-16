@@ -341,28 +341,33 @@ footer{
         grid-row: 1/2;
         padding-left: 0;
         padding-right: 0;
-    
+       
     }
 
     .subtitle{
+        background-image: url(../img/tablero2.png);
         text-align: center;
         grid-row: 2/3;
         grid-column: 1/4; 
         background-size: cover;
+        
         background-repeat: no-repeat;
         background-position: center;
-   
+       padding-top: 25%;
+      
     }
 
     h2 {
         font-size: 1.5em;
     }
     .subtitle h3{
+        margin-top: -20%;
         font-size: 1.2em;
         padding-left: 10%;
         padding-right: 10%;
     }
     .textohistoria{
+        margin-top:30%;
         grid-column: 2/3;
         grid-row: 3/4;
         margin-bottom: 5%;
@@ -376,6 +381,7 @@ footer{
     }
     .juegahora{
         width: 50%;
+        padding-top: 40%;
     }
     
     .titulonaves{
