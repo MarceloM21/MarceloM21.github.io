@@ -336,9 +336,11 @@ footer{
     }
 
     .banner{
-        width: 85%;
+        width: 100%;
         grid-column: 2/3;
         grid-row: 1/2;
+        padding-left: 0;
+        padding-right: 0;
     
     }
 
@@ -349,8 +351,7 @@ footer{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        margin-left: 0;
-        margin-right: 0;
+   
     }
 
     h2 {
@@ -358,8 +359,8 @@ footer{
     }
     .subtitle h3{
         font-size: 1.2em;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .textohistoria{
         grid-column: 2/3;
