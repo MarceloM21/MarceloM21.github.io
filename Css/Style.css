@@ -359,8 +359,8 @@ footer{
     }
     .subtitle h3{
         font-size: 1.2em;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .textohistoria{
         grid-column: 2/3;
@@ -510,7 +510,7 @@ footer{
     .cartahabilidad{
         grid-row:17/18;
         grid-column: 2/3;
-        width: 100%;
+        width: 95%;
         background: linear-gradient(to top, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
         border-top: 4px solid #FFA1FF;
         padding-left: 5%;
