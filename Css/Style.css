@@ -91,14 +91,14 @@ span{
     grid-row: 3/4;
     font-family: 'Cabin', sans-serif;
     margin-bottom: 5%;
-
+    
 }
 
 .agujeronegro{
     grid-column: 3/4;
     grid-row: 3/4;
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin-left: 0%;
 }
 
@@ -124,11 +124,10 @@ span{
     justify-content: space-between;
     padding-top: 5%;
     flex-wrap: wrap;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 3%;
 }
-
 .comojugar{
     grid-row: 6/7;
     grid-column: 2/4; 
@@ -383,16 +382,14 @@ footer{
         grid-row: 6/7; 
         flex-direction: column;
         height: 100%;
-        width: 25%;
-        padding-left: 30%;
+        width: 30%;
+        padding-left: 28%;
         padding-bottom: 3%;
+        padding-right: 33%;
         flex-grow: 1;
     }
    
-    .stinggrey{
-        padding-left: -3%;
-
-    }
+ 
     .comojugar{
         grid-row: 7/8;
         grid-column: 2/3; 
