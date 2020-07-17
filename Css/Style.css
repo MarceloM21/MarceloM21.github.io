@@ -495,7 +495,7 @@ iframe{
     }
 
     .banner{
-        width: 95%;
+        width: 90%;
         grid-column: 2/3;
         grid-row: 1/2;
         padding-left: 0;
