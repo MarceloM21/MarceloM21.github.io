@@ -114,16 +114,16 @@ span{
     margin-bottom: 2%;
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 0.2em;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .requisitos ul{
   list-style:none;
-  display: flex;
+  display:flex;
   flex-grow: 1;
-  flex-wrap: wrap;
-}
+  padding-right: 0;
+  }
 
 .requisitos ul li {
   border-right: 4px solid #FFA1FF;
@@ -135,7 +135,7 @@ span{
 }
 
 .requisitos h3{
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: white;
 }
 
