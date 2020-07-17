@@ -493,7 +493,7 @@ iframe{
     }
 
     .banner{
-        width: 100%;
+        width: 95%;
         grid-column: 2/3;
         grid-row: 1/2;
         padding-left: 0;
@@ -786,7 +786,7 @@ iframe{
         grid-column: 2/3;
         text-align: center;
         padding-bottom: 10%;
-        padding-top: 5%;
+        
     }
     .contfoot p{
         font-size: 1em;
