@@ -114,8 +114,8 @@ span{
     margin-bottom: 2%;
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 0.2em;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 1%;
 }
 
 .requisitos ul{
@@ -553,7 +553,6 @@ iframe{
         margin-bottom: 2%;
         font-family: 'Titillium Web', sans-serif;
         letter-spacing: 0.2em;
-                
     }
     
     .requisitos ul{
@@ -569,6 +568,7 @@ iframe{
         border-right: none;
         border-top: 2px solid #FFA1FF;
         padding-top:2%;
+        
     }
     
     .requisitos h2{
@@ -580,7 +580,7 @@ iframe{
         grid-row: 6/7;
         grid-column: 2/3; 
         text-align: center;
-        padding: 20px;
+        padding: 5%;
         background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(13,11,23,1) 9%, rgba(20,15,30,1) 28%, rgba(20,15,30,1) 74%, rgba(13,11,23,1) 93%, rgba(13,11,23,1) 100%);
     }
     
