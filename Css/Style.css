@@ -169,6 +169,7 @@ span{
     grid-row: 7/8;
     grid-column: 2/4;
     height: 35em;
+    margin-top: 5%;
 }
 iframe{
     width: 50%;
