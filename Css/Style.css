@@ -15,7 +15,7 @@ body{
     
     display: grid;
     grid-template-columns: 15% 35% 35% 15%;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     
 }
 
@@ -99,7 +99,7 @@ span{
 .agujeronegro{
     grid-column: 3/4;
     grid-row: 3/4;
-    width: 100%;
+    width: 85%;
     margin-left: 0%;
 }
 
@@ -108,9 +108,43 @@ span{
     
 }
 
+.requisitos{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin-bottom: 2%;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.2em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.requisitos ul{
+  list-style:none;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.requisitos ul li {
+  border-right: 4px solid #FFA1FF;
+  padding-left:3%;
+  padding-right:3%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 1.8%;
+}
+
+.requisitos h3{
+    font-size: 1.4em;
+    color: white;
+}
+
+.requisitos ul li:nth-child(5n) {
+    border-right: none;
+}
 
 .titulonaves{
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 2/4; 
     text-align: center;
     padding: 20px;
@@ -121,6 +155,7 @@ span{
 .naves{
     background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(13,11,23,1) 9%, rgba(20,15,30,1) 28%, rgba(20,15,30,1) 74%, rgba(13,11,23,1) 93%, rgba(13,11,23,1) 100%);    grid-row: 5/6;
     grid-column: 2/4; 
+    grid-row: 6/7;
     display: inline-flex;
     justify-content: space-between;
     padding-top: 5%;
@@ -129,25 +164,71 @@ span{
     padding-right: 10%;
     padding-bottom: 3%;
 }
-.comojugar{
-    grid-row: 6/7;
-    grid-column: 2/4; 
-    text-align: center;
+
+.videotutorial{
+    grid-row: 7/8;
+    grid-column: 2/4;
+    height: 35em;
+}
+iframe{
+    width: 50%;
+    height: 80%;
+    padding-bottom: 10%;
     padding-top: 5%;
-    margin-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-.comojugar p{
-    font-size: 1.5em;
+.contenido{
+    grid-column: 2/4;
+    grid-row: 8/9;
+    text-align: center;
 }
-.comojugar h2{
-    padding-top: 3em;
+.contenidos{
+    
+    width: 80%;
+}
+.contenido h2{
+    padding-top: 0%;
     padding-bottom: 3%;
+}
+.comojugar{
+    grid-row: 9/10;
+    grid-column: 2/4; 
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.comojugar p{
+    border-bottom: 4px solid #FFA1FF;
+    font-size: 1.4em;
+    padding-bottom: 5%;
+}
+.comojugar p span{
+    font-size: 1.5em;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    
+}
+.comojugar h3{
+    font-size: 1.5em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+    border-top: 4px solid #FFA1FF;
+}
+
+.comojugar h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
 }
 
 
 .tablero{
-    grid-row: 7/8   ;
+    grid-row: 10/11;
     grid-column: 2/3; 
     width: 90%;
     padding-top: 10%;
@@ -159,11 +240,11 @@ span{
 }
 
 .comienzo{
-    grid-row: 7/8   ;
+    grid-row: 10/11;
     grid-column: 3/4; 
     padding-left: 5%;
     margin-bottom: 15%;
-    text-align: left;
+    
 }
 
 .comienzo h2{
@@ -179,19 +260,17 @@ span{
 }
 
 .bases{
-    grid-row: 8/9   ;
+    grid-row: 11/12   ;
     grid-column: 2/3;
     padding-right: 5%; 
     margin-bottom: 15%;
-    border-right: 4px solid #FFA1FF;
-
-    
+    border-right: 4px solid #FFA1FF; 
 }
 .bases ul{
     padding-left: 4%;
 }
 .bases h2{
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     
 }
 .bases ul li ul {
@@ -203,7 +282,7 @@ span{
  }
 
 .screenshotstab{
-    grid-row: 8/9   ;
+    grid-row: 11/12   ;
     grid-column: 3/4;
     width: 90%;
     padding-bottom: 3%;
@@ -213,11 +292,11 @@ span{
 
 .cartaataque{
     padding-top: 12%;
-    grid-row: 9/10;
+    grid-row: 12/13;
     grid-column: 2/3;
     width: 90%;
     padding-right: 9.5%;
-    padding-bottom: 22%;
+    padding-bottom: 15%;
     background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
     border-right: 4px solid #FFA1FF;
     margin-bottom: 15%;
@@ -225,7 +304,7 @@ span{
 }
 
 .ataque{
-    grid-row:9/10   ;
+    grid-row:12/13   ;
     grid-column: 3/4;
     padding-right: 3em; 
     padding-left: 5%;
@@ -239,7 +318,7 @@ span{
     padding-left: 3%;
 }
 .contillustr{
-    grid-row:10/11;
+    grid-row:13/14;
     grid-column: 2/4;
     display: inline-flex;
     justify-content: space-between;  
@@ -257,7 +336,7 @@ span{
 }
 
 .sabermas{
-    grid-row:11/12;
+    grid-row:14/15;
     grid-column: 2/4;
     width: 33%;
     display:flex;
@@ -276,7 +355,7 @@ span{
 }
 
 .habilidades{
-    grid-row:12/13;
+    grid-row:15/16;
     grid-column: 2/3;
     padding-right:9%;
     margin-bottom: 15%;
@@ -292,13 +371,13 @@ span{
 
 
 .cartahabilidad{
-    grid-row:12/13;
+    grid-row:15/16;
     grid-column: 3/4;
-    width: 100%;
+    width: 90%;
     background: linear-gradient(to left, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
     border-left: 4px solid #FFA1FF;;
-    padding-left: 10%;
-    padding-bottom: 61.5%;
+    padding-left: 9.5%;
+    padding-bottom: 25%;
     padding-top: 12%;
     margin-bottom: 15%;
 }
@@ -331,7 +410,7 @@ footer{
        
         display: grid;
         grid-template-columns: 10% auto 10%;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     
     }
 
@@ -381,15 +460,43 @@ footer{
         height: auto;
         width: 100%;
     }
+    
+
     .juegahora{
-        width: 50%;
-        
+        width: 50%;  
         padding-top: 60%;
         padding-bottom: 0;
     }
     
-    .titulonaves{
+    .requisitos{
+        grid-column: 2/3;
         grid-row: 5/6;
+        margin-bottom: 2%;
+        font-family: 'Titillium Web', sans-serif;
+        letter-spacing: 0.2em;
+        margin: 5%;
+    }
+    
+    .requisitos ul{
+      list-style:none;
+      display: inline-block;
+      flex-grow: 1;
+      text-align: center;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    
+    .requisitos ul li {
+        border-right: none;
+        border-top: 2px solid #FFA1FF;
+        padding-top:2%;
+    }
+    
+    .requisitos h3{
+        font-size: 1.5em;
+    }
+    .titulonaves{
+        grid-row: 6/7;
         grid-column: 2/3; 
         text-align: center;
         padding: 20px;
@@ -400,7 +507,7 @@ footer{
     .naves{
         background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(13,11,23,1) 9%, rgba(20,15,30,1) 28%, rgba(20,15,30,1) 74%, rgba(13,11,23,1) 93%, rgba(13,11,23,1) 100%);    grid-row: 5/6;
         grid-column: 2/3;
-        grid-row: 6/7; 
+        grid-row: 7/8; 
         flex-direction: column;
         height: 100%;
         width: 30%;
@@ -409,17 +516,63 @@ footer{
         padding-right: 33%;
         flex-grow: 1;
     }
-   
- 
+    
+    
+    .videotutorial{
+        grid-row: 8/9;
+        grid-column: 2/3;
+        margin-left: 0;
+        
+    }
+    iframe{
+        height:80%;
+        width: 100%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        padding-left:0 ;
+        padding-right: 0;
+    }
+    .contenido{
+        grid-row: 9/10;
+        grid-column: 2/3;
+    }
+    .contenido img {
+        content:url("../img/contenidos_movil.png");
+        width: 100%;
+        padding-top: 5%;
+    }
     .comojugar{
-        grid-row: 7/8;
+        grid-row: 10/11;
         grid-column: 2/3; 
         text-align: center;
         padding-top: 20%;
         margin-bottom: 5%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .comojugar p{
+        border-bottom: 4px solid #FFA1FF;
+        padding-bottom: 5%;
+    }
+    .comojugar p span{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        
+    }
+    .comojugar h3{
+        padding-bottom: 5%;
+        padding-top: 5%;
+        border-top: 4px solid #FFA1FF;
+    }
+    
+    .comojugar h2{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
     }
     .tablero{
-        grid-row: 8/9;
+        grid-row: 11/12;
         grid-column: 2/3; 
         width: 100%;
         padding-top: 5%;
@@ -432,11 +585,11 @@ footer{
     }
     .movimiento{
         width: 100%;
-        grid-row: 9/10;
+        grid-row: 12/13;
         grid-column: 2/3;
     }
     .comienzo{
-        grid-row: 10/11;
+        grid-row: 13/14;
         grid-column: 2/3; 
         padding-left: 5%;
         margin-bottom: 15%;
@@ -444,7 +597,7 @@ footer{
     }
     
     .bases{
-        grid-row: 11/12   ;
+        grid-row: 14/15;
         grid-column: 2/3;
         border-top: 4px solid #FFA1FF;
         border-right: 0; 
@@ -454,14 +607,14 @@ footer{
         padding-top: 3%;
     }
     .screenshotstab{
-        grid-row: 12/13   ;
+        grid-row: 15/16;
         grid-column: 2/3;
         width: 90%;
     }
 
     .cartaataque{
         padding-top: 10%;
-        grid-row: 13/14;
+        grid-row: 16/17;
         grid-column: 2/3;
         width: 90%;
         padding-left: 5%;
@@ -474,7 +627,7 @@ footer{
     
     }
     .ataque{
-        grid-row:14/15   ;
+        grid-row:17/18;
         grid-column: 2/3;
         padding-right: 5%; 
         padding-left: 5%;
@@ -483,7 +636,7 @@ footer{
 
     }
     .contillustr{
-        grid-row:15/16;
+        grid-row:18/19;
         grid-column: 2/3;
         display: inline-flex;
         justify-content: space-between;  
@@ -496,7 +649,7 @@ footer{
     }
     
     .sabermas{
-        grid-row:16/17;
+        grid-row:19/20;
         grid-column: 2/3;
         border-top: 4px solid #FFA1FF;
         margin-left: 0;
@@ -511,14 +664,14 @@ footer{
         padding-left: 5%;
     }
     .habilidades{
-        grid-row:18/19;
+        grid-row:20/21;
         grid-column: 2/3;
         padding-right:5%;
         padding-left: 3%;
         margin-bottom: 15%;
     }
     .cartahabilidad{
-        grid-row:17/18;
+        grid-row:21/22;
         grid-column: 2/3;
         width: 95%;
         background: linear-gradient(to top, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
