@@ -244,13 +244,14 @@ iframe{
     width: 95% ;
     padding-bottom:10%;  
 }
-
+.controles h3{
+    font-family: 'Cabin', sans-serif;
+}
 .controles ul{
     list-style: none;
 }
 .controles ul li{
     display: flex;
-
 }
 
 .controles ul li img{
