@@ -233,7 +233,7 @@ iframe{
     grid-row: 10/11;
     grid-column: 2/3; 
     padding-top: 10%;
-    padding-right: 9%;
+    padding-right: 5%;
     padding-bottom: 5%;
     margin-bottom: 15%;
     background: linear-gradient(to right, rgba(13,11,23,1) 0%, rgba(20,15,30,1) 78%, rgba(20,15,30,1) 99%, rgba(20,15,30,1) 100%);
